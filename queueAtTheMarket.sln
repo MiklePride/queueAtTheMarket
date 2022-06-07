@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32516.85
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "queueAtTheMarket", "queueAtTheMarket\queueAtTheMarket.csproj", "{97430F25-3881-4BD7-9AEB-4D7A01FC0FD1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{97430F25-3881-4BD7-9AEB-4D7A01FC0FD1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{97430F25-3881-4BD7-9AEB-4D7A01FC0FD1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{97430F25-3881-4BD7-9AEB-4D7A01FC0FD1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{97430F25-3881-4BD7-9AEB-4D7A01FC0FD1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A04301C0-2F2D-402E-8F19-6AF8F339CC04}
+	EndGlobalSection
+EndGlobal
