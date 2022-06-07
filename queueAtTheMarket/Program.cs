@@ -12,20 +12,14 @@
         customerReceipts.Enqueue(600);
         customerReceipts.Enqueue(788);
 
-        ServingCustomer(customerReceipts);
+        ServeCustomer(customerReceipts);
     }
 
-    static void ServingCustomer(Queue<int> customerReceipts)
+    static void ServeCustomer(Queue<int> customerReceipts)
     {
         int cashCount = 0;
-        int customerReceiptsCount = 0;
 
-        foreach (int receipts in customerReceipts)
-        {
-            customerReceiptsCount++;
-        }
-
-        for (int i = 0; i < customerReceiptsCount; i++)
+        while (customerReceipts.Count > 0)
         {
             Console.WriteLine($"Сумма чека текущего покупателя - {customerReceipts.Peek()}руб.");
             cashCount += customerReceipts.Dequeue();
